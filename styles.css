@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "MakroB";  
+    src: url(./fonts/MakroXM-Black.ttf);
+}
+@font-face {
+    font-family:"Como";
+    src: url(./fonts/Como-Medium.ttf);
+}
+@font-face {
+    font-family: "MakroL";
+    src: url(./fonts/MakroXM-Light.ttf);
+}
+
+@font-face {
+    font-family: "MakroR";
+    src: url(./fonts/MakroXM-Regular.ttf);
+}
+
+@font-face {
+    font-family: "MakroM";
+    src: url(./fonts/MakroXM-Medium.ttf);
+}
+
+@font-face {
+    font-family: "TT";
+    src: url(./fonts/TT\ Interphases\ Pro\ Trial\ Bold.ttf);
+}
+
+html{
+    font-size: 6.25%;
+}
+
+@media (max-width:1600px){
+    html{
+        font-size: 5%;
+    }
+}
+
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+body{
+    background-color:#252525;
+}
+.main-ramen{
+    position: absolute;
+    width:53%;
+    height:120% ;
+    left: -330rem;
+    top:-100rem;
+    transition: 0.1s;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10rem 20rem;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18rem;
+    font-weight:normal;
+    font-family: "MakroM";
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+    color: #fe691f;
+    transition: 0.3s;
+}
+
+nav button{
+    display: flex;
+    justify-content:center;
+    gap:6rem;
+    align-items: center;
+    border: 2rem solid #929292;
+    background: transparent;
+    padding: 12rem 24rem;
+    border-radius: 15rem;
+    color: white;
+    font-weight: bold;
+    font-size: 18rem;
+    transition: 0.4s;
+    font-family:"TT";
+}
+
+
+nav button:hover{
+    border: none;
+    background-color: #fe691f;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 15rem hsla(20, 99%, 56%, 0.603);
+}
+
+.hero-button{
+    position: absolute;
+    border: #f5782d solid 3rem;
+    background:#fe691f;
+    padding: 27rem 65rem 29rem 65rem;
+    border-radius: 100rem;
+    color: white;
+    font-weight: bold;
+    font-size: 25rem;
+    transition: 0.2s;
+    font-family:"TT";
+    box-shadow: 0rem 5rem 15rem hsla(20, 99%, 56%, 0.69);
+    top: 79%;
+    left: 67%
+
+}
+
+.hero-button:hover{
+    color: #fe691f;
+    border: #fe691f 3rem solid ;
+    background-color: transparent;
+    transform: scale(0.9);
+
+}
+
+.logo{
+    z-index: +1;
+}
+
+.logo:hover{
+    filter: invert(46%) sepia(72%) saturate(2008%) hue-rotate(347deg) brightness(101%) contrast(99%);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    padding-top: 1rem;
+}
+
+.heading h1{
+    word-spacing: 11rem;
+    color: white;
+    font-family: "MakroB";
+    font-size: 75rem;
+    text-align: center;
+    margin-bottom: 40rem;
+
+}
+
+.hero-text h1{
+    word-spacing: 12rem;
+    color: white;
+    font-family: "MakroB";
+    text-align: left;
+    position: absolute;
+    top: 19%;
+    left: 42.5%;
+    font-size: 85rem;
+}
+
+h1 span{
+    color: #fe691f;
+}
+
+.heading h2{ 
+    word-spacing: 6rem;
+    font-family: "MakroL";
+    font-weight: 600;
+    font-size: 25rem;
+    text-align: center;
+    color:#929292;
+    margin: 30rem 0rem;
+}
+
+.hero-text h2{
+    word-spacing: 6rem;
+    font-family: "MakroL";
+    font-weight: 600;
+    font-size: 18rem;
+    position: absolute;
+    color:#929292;
+    top: 80%;
+    left: 42.5%;
+
+}
+h2 span{
+    font-style:italic;
+    color: #fe691f;
+}
+
+.hero-text h3{
+    position: absolute;
+    color:white;
+    font-size: 85rem;
+    writing-mode: vertical-rl;
+    top: 18%;
+    left: 0.5%;
+}
+
+h4{
+    color:#929292;
+    text-align: center;
+    font-family: MakroB;
+    z-index: -10;
+    position:absolute;
+    font-size: 465rem;
+    top: 830rem;
+    left: 35rem;
+    opacity: 15%;
+}
+    
+.swig1{
+    position: absolute;
+    width: 90rem;
+    top: 12%;
+    left: 31%;
+    transform:rotate(1deg)
+}
+
+.swig2{
+    position: absolute;
+    width:130rem;
+    top:75%;
+    left:30.5%;
+    transform: rotate(3deg);
+
+}
+
+.egg1{
+    width: 5%;
+    transform: scaleX(-1);
+    position: absolute;
+    left: 85%;
+    top: 31%;
+}
+
+.egg2{
+    width: 5%;
+    position: absolute;
+    left: 85%;
+    top: 63%;
+}
+
+.chop{
+    color: #ffffff;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(7483%) hue-rotate(357deg) brightness(113%) contrast(111%);
+    transform: scaleX(-1) rotate(-82deg);
+    position: absolute;
+    width: 11%;
+    left: 62.2%;
+    top: 73%;
+}
+
+#banner-wrapper {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 130rem;
+    margin-bottom: 110rem;
+}
+#banner-container {
+    display: flex;
+    animation: moveBanner 27s linear infinite;
+}
+#banner {
+    font-family: MakroB;
+    background-color: white;
+    color:#252525;
+    font-size: 33rem;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    height: 75rem;
+}
+#banner img {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    height: 65rem;
+    width: 260rem;
+    object-fit: cover;
+    border-radius: 50rem;
+    margin: 0rem 40rem;
+}
+
+@keyframes moveBanner {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.bigr img{
+    width: 53%;
+    margin: 275rem;
+    filter: grayscale(100%);
+}
+
+.bigr{
+    text-align: center;
+}
+
+.polaroid a {
+    background: #ffffff;
+    display: inline-block  ;
+    padding: 25rem 25rem 40rem;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+    border-radius: 25rem;
+}
+.polaroid a:after {
+    white-space:pre;
+    text-align: left;
+    color:#252525;
+    font-family: MakroM;
+    font-weight: bold;
+    font-size: 25rem;
+    content:attr(title);
+    position: relative;
+    top: 16px;
+}
+.polaroid img {
+    padding: 0px 3px;
+    border-radius: 25rem;
+    display: block;
+    height: 230rem;
+    width: 280rem;
+}
+.polo:hover {
+    transition: all .20s linear;
+    border-radius: 25rem;
+    transform: scale(1.1);
+    z-index: 10;
+    box-shadow: 0 10rem 20rem rgba(0, 0, 0, .7);
+}
+
+.about{
+    position: relative;
+    border-bottom: #929292;
+}
+
+.polo{
+    transition: all .20s linear;
+    position: absolute;
+}
+.polo1{
+    top: 40%;
+    left: 12%;
+}
+.tape{
+    filter: brightness(0) saturate(100%) invert(49%) sepia(67%) saturate(2778%) hue-rotate(347deg) brightness(101%) contrast(99%);
+    position: absolute;
+    width: 100rem;
+    z-index: 11;
+    top:-36rem;
+    left:-36rem;
+}
+.polo2{
+    top:430rem;
+    left: 1280rem;
+}
+.polo2 img{
+    object-fit:cover;
+}
+
+.polo2 .tape{
+    transform: scaleX(-1);
+    left: 275rem
+}
+
+.polo3 img{
+    object-fit:cover;
+}
+
+.polo3 .tape{
+    transform: scaleX(-1);
+    left: 275rem
+}
+
+.polo3{
+    top:1100rem;
+    left: 1050rem;
+}
+
+.aro1{
+    width:200rem;
+    position: absolute;
+    top:520rem;
+    left:1063rem;
+}
+.aro2{
+    width:210rem;
+    position: absolute;
+    top:1100rem;
+    left:440rem;
+}
+.aro3{
+    width:130rem;
+    position: absolute;
+    top:1270rem;
+    left:890rem;
+}
+
+hr{
+    border: 0;
+    height: 3rem;
+    background:#353535;
+    margin: 100rem;
+}
