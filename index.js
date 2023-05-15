@@ -14,5 +14,5 @@ window.addEventListener("scroll", function() {
     var img = document.getElementById("main-ramen");
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   
-    img.style.transform = "rotate(" + scrollTop/6 + "deg)";
+    img.style.transform = "rotate(" + scrollTop/8 + "deg)";
   });
