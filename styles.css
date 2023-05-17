@@ -139,6 +139,34 @@ nav button:hover{
 
 }
 
+.menu-button{
+    text-align: center;
+    border: #f5782d solid 3rem;
+    background:#fe691f;
+    padding: 20rem 85rem 22rem 85rem;
+    border-radius: 100rem;
+    color: white;
+    font-weight: bold;
+    font-size: 25rem;
+    transition: 0.2s;
+    font-family:"TT";
+    box-shadow: 0rem 5rem 15rem hsla(20, 99%, 56%, 0.69);
+    margin-top:20rem ;
+
+}
+
+.menu-button:hover{
+    color: #fe691f;
+    border: #fe691f 3rem solid ;
+    background-color: transparent;
+    transform: scale(0.9);
+
+}
+
+.review-button{
+    text-align: center;
+}
+
 .logo{
     z-index: +1;
 }
@@ -213,7 +241,7 @@ h2 span{
     left: 0.5%;
 }
 
-h4{
+.about h4{
     color:#929292;
     text-align: center;
     font-family: MakroB;
@@ -259,7 +287,7 @@ h4{
 
 .chop{
     color: #ffffff;
-    filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(7483%) hue-rotate(357deg) brightness(113%) contrast(111%);
+    filter: brightness(0) saturate(100%) invert(67%) sepia(60%) saturate(519%) hue-rotate(333deg) brightness(100%) contrast(103%);
     transform: scaleX(-1) rotate(-82deg);
     position: absolute;
     width: 11%;
@@ -323,7 +351,6 @@ h4{
     text-decoration: none;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
     transition: all .20s linear;
-    z-index: 0;
     position: relative;
     border-radius: 25rem;
 }
@@ -425,4 +452,387 @@ hr{
     height: 3rem;
     background:#353535;
     margin: 100rem;
+}
+.menu{
+    text-align: center;
+    position: relative;
+}
+.hangs{
+    position: absolute;
+}
+.rope{
+    position: relative;
+
+}
+
+.rope img{
+    width: 100%;
+    margin-top:100rem ;
+}
+
+.light{
+    width:65rem;
+    height:105rem;
+    position: absolute;
+    top:-54rem;
+    left: 160rem;
+}
+.dark{
+    width: 30rem;
+    height: 105rem;
+    position: absolute;
+    top:-51rem;
+    left: 200rem;
+    z-index: -1;
+    transform: rotate(11deg);
+}
+  
+.menu-polos a {
+    background: #ffffff;
+    display: inline-block  ;
+    padding: 15rem 15rem 35rem;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    transition: all .20s linear;
+    z-index: -1;
+    position: relative;
+    border-radius: 25rem;
+    text-align: left;
+    top:35rem
+}
+.menu-polos a:after {
+    white-space:pre;
+    color:#252525;
+    font-family: Makrob;
+    font-weight: bold;
+    font-size: 25rem;
+    content:attr(title);
+    position: relative;
+    top: 16rem;
+    padding-left: 10rem;
+}
+.menu-polos img {
+    border-radius: 25rem;
+    display: block;
+    height: 350rem;
+    width: 350rem;
+}
+
+
+.hang1 .menu-polos img{
+    object-fit: cover;
+}
+.hang2 .menu-polos img{
+    object-fit: cover;
+}
+.hang3 .menu-polos img{
+    object-fit: cover;
+}
+.hang1{
+    position: absolute;
+    left: 760rem;
+}
+.hang2{
+    position: absolute;
+    left: 1300rem;
+    top: 510rem;
+    transform: rotate(-8deg);
+}
+.hang3{
+    position: absolute;
+    transform: rotate(8deg);
+    top: 510rem;
+    left:220rem
+}
+
+.hangs{
+    transition: all .20s linear;
+    position: absolute;
+}
+
+.hangs:hover {
+    transition: all .20s linear;
+    border-radius: 25rem;
+    transform: scale(1.1);
+}
+
+.bottom h2{ 
+    word-spacing: 6rem;
+    font-family: "MakroL";
+    font-weight: 600;
+    font-size: 25rem;
+    text-align: center;
+    color:#929292;
+    margin: 650rem 10rem 100rem 10rem;
+}
+
+.review-text{
+    text-align: center;
+}
+
+.text1{
+    position:absolute ;
+    background-color: #fe691f;
+    box-shadow: 0px 3px 30px 1rem rgba(0, 0, 0, 0.308);
+    display: inline-block;
+    padding: 35rem 45rem;
+    border-radius: 30rem;
+    word-spacing: 6rem;
+    font-family: "MakroL";
+    font-size: 15rem;
+    text-align: left;
+    color:white;
+    transform: rotate(10deg);
+    margin:200rem 300rem 0rem 0rem;
+}
+.text1:hover {
+    transition: all .20s linear;
+    border-radius: 30rem;
+    transform: scale(1.15);
+    z-index: 10;
+    box-shadow: 0 10rem 20rem rgba(0, 0, 0, .7);
+}
+.text2:hover {
+    transition: all .20s linear;
+    border-radius: 30rem;
+    transform: scale(1.15);
+    z-index: 10;
+    box-shadow: 0 10rem 20rem rgba(0, 0, 0, .7);
+}
+
+.text1 p{
+    padding-top: 18rem;
+    word-spacing: 6rem;
+    font-family: "MakroB";
+    font-weight: 600;
+    font-size: 23rem;
+    text-align: left;
+    color:white;
+}
+
+.text1 img{
+    top:28rem;
+    left: 30rem;
+    width: 100rem;
+    position: absolute;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7481%) hue-rotate(181deg) brightness(107%) contrast(101%);
+    opacity: 20%;
+    transform: scaleY(-1);
+
+
+    
+}
+
+.text2 img{
+    top:28rem;
+    right: 30rem;
+    width: 100rem;
+    position: absolute;
+    opacity: 40%;
+    filter: brightness(0) saturate(100%) invert(50%) sepia(86%) saturate(2903%) hue-rotate(348deg) brightness(103%) contrast(99%);
+    transform: scaleY(-1);
+    transform: scaleX(-1);
+
+}
+
+.text2{
+    position: relative;
+    background-color:white;
+    box-shadow: 0px 3px 30px 1rem rgba(0, 0, 0, 0.308);
+    display: inline-block;
+    padding: 35rem 45rem;
+    border-radius: 30rem;
+    word-spacing: 6rem;
+    font-family: "MakroM";
+    font-size: 15rem;
+    text-align: left;
+    color:#353535;
+    transform: rotate(-17deg);
+    margin:250rem 0rem 0rem 300rem;
+}
+
+.text2 p{
+    padding-top: 18rem;
+    word-spacing: 6rem;
+    font-family: "MakroB";
+    font-weight: 600;
+    font-size: 23rem;
+    text-align: right;
+    color:#353535;
+}
+
+.reviews{
+    position: relative;
+}
+
+.stick1{
+    position: absolute;
+    filter: brightness(0) saturate(100%) invert(67%) sepia(60%) saturate(519%) hue-rotate(333deg) brightness(100%) contrast(103%);
+    width: 50rem;
+    transform: rotate(-10deg);
+    left:470rem;
+    top: 350rem;
+}
+
+.stick2{
+    position: absolute;
+    filter: brightness(0) saturate(100%) invert(67%) sepia(60%) saturate(519%) hue-rotate(333deg) brightness(100%) contrast(103%);
+    width: 50rem;
+    transform: rotate(3deg);
+    top:315rem;
+    left:480rem;
+}
+
+.stick3{
+    position: absolute;
+    filter: brightness(0) saturate(100%) invert(67%) sepia(60%) saturate(519%) hue-rotate(333deg) brightness(100%) contrast(103%);
+    width: 50rem;
+    transform: scaleX(-1);
+    transform: rotate(32deg);
+    right:500em;
+    top: 355rem;
+}
+
+.stick4{
+    filter: brightness(0) saturate(100%) invert(67%) sepia(60%) saturate(519%) hue-rotate(333deg) brightness(100%) contrast(103%);
+    position: absolute;
+    width: 50rem;
+    transform: rotate(20deg);
+    top:330rem;
+    right:515rem;
+}
+
+.reviews h4{
+    color:#929292;
+    text-align: center;
+    font-family: MakroB;
+    z-index: -10;
+    position:absolute;
+    font-size: 610rem;
+    opacity: 12%;
+    top:210rem;
+}
+
+.reviews-bottom h2{
+    word-spacing: 6rem;
+    font-family: "MakroL";
+    font-weight: 600;
+    font-size: 25rem;
+    text-align: center;
+    color:#929292;
+    margin: 300rem 10rem 100rem 10rem;
+}
+
+.hidden {
+    display: none;
+  }
+
+.newsletter{
+    position: relative;
+}
+
+.newsletter .heading h1{
+    text-align: left;
+    margin-left: 100rem;
+}
+
+.image-section {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+  
+.scroll-image {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.input{
+    padding: 25rem 500rem 25rem 30rem;
+    border-radius: 50rem;
+    font-size: 22rem;
+    font-family: TT;
+    border: none;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.e-button{
+    text-align: center;
+    border: #f5782d solid 3rem;
+    background:#fe691f;
+    padding: 22rem 60rem 22rem 60rem;
+    border-radius: 100rem;
+    color: white;
+    font-weight: bold;
+    font-size: 22rem;
+    transition: 0.2s;
+    font-family:"TT";
+    box-shadow: 0rem 5rem 15rem hsla(20, 99%, 56%, 0.69);
+    margin-left: -100rem;
+
+}
+
+form{
+    display: inline-block;
+    margin: 100rem 0rem 50rem 100rem;
+}
+
+.news-bottom h2{
+    display: inline-block;
+    text-align: left;
+    word-spacing: 6rem;
+    font-family: "MakroL";
+    font-weight: 600;
+    font-size: 25rem;
+    color:#929292;
+    margin: 60rem 10rem 100rem 100rem;
+}
+
+
+.lastRamen img{
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    z-index: -1;
+    width: 800rem;
+}
+
+
+.endBanner #banner-wrapper{
+    margin: 0rem;
+}
+
+footer nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.fa{
+    padding: 0rem 20rem;
+    color: white;
+    font-size: 30rem !important;
+}
+
+.swigg1{
+    position: absolute;
+    width: 85rem;
+    transform: rotate(-105deg);
+    right:590rem;
+    bottom: 390rem;
+}
+
+.swigg2{
+    position: absolute;
+    width: 130rem;
+    transform: rotate(175deg);
+    right:750rem;
+    bottom: 50rem;
 }
